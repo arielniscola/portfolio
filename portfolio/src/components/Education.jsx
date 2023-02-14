@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="ml-10">
+    <div id="education" className="ml-10 h-screen">
       <h1 className="mb-10 text-white">Educación</h1>
       <ol class="relative border-l border-gray-200 dark:border-gray-700">
         <li class="mb-10 ml-6">

@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div>
+    <div id="projects" className="h-screen">
       <h2 className="mb-10 text-white">Proyectos</h2>
       <div class="flex justify-around mb-10">
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -16,7 +16,7 @@ const Projects = () => {
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Noteworthy technology acquisitions 2021
+                Country App
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -56,7 +56,7 @@ const Projects = () => {
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Noteworthy technology acquisitions 2021
+                BooKing App
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -96,7 +96,7 @@ const Projects = () => {
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Noteworthy technology acquisitions 2021
+                Sistema de gestión de Depósito Fiscal
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -137,7 +137,7 @@ const Projects = () => {
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Noteworthy technology acquisitions 2021
+                Sistema de pesaje y tickets
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -177,7 +177,7 @@ const Projects = () => {
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Noteworthy technology acquisitions 2021
+                Sistema de freight forwarding
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">

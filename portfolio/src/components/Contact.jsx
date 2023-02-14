@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="m-20 b">
-      <h1>Contact</h1>
+    <div id="contact" className="m-20">
+      <h1 className="text-white">Contact</h1>
 
       <form>
         <div class="mb-6">
