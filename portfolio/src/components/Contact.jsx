@@ -2,57 +2,35 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div id="contact" className="m-20">
-      <h1 className="text-white">Contact</h1>
-
-      <form>
-        <div class="mb-6">
-          <label
-            for="email"
-            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-          >
-            Your email
-          </label>
-          <input
-            type="email"
-            id="email"
-            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
-            placeholder="name@flowbite.com"
-            required
-          />
+    <div
+      name="contact"
+      className="w-full h-screnn bg-[#0a192f] flex justify-center items-center p-4"
+    >
+      <form action="" className="flex flex-col max-w-[600px] w-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+            Contacto
+          </p>
+          <p className="text-gray-300 py-4">
+            Podes contactarme por el siguiente formulario o enviarme correo a
+            arielniscola@gmail.com
+          </p>
         </div>
-        <div class="mb-6">
-          <label
-            for="company"
-            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-          >
-            Empresa
-          </label>
-          <input
-            type="text"
-            id="company"
-            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
-            required
-          />
-        </div>
-        <div class="mb-6">
-          <label
-            for="Comentarios"
-            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-          >
-            Comentarios
-          </label>
-          <input
-            type="text"
-            id="comments"
-            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
-            required
-          />
-        </div>
-        <button
-          type="submit"
-          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        >
+        <input
+          className="bg-white p-2"
+          type="text"
+          name="name"
+          placeholder="Name"
+        />
+        <input className="my-4 p-2 bg-white" type="email" placeholder="Email" />
+        <textarea
+          className="bg-white p-2"
+          name="message"
+          id=""
+          rows="10"
+          placeholder="Mensaje"
+        ></textarea>
+        <button className="text-white border-2 hover:bg-pink-600 px-4 py-3 my-8 mx-auto flex items-center rounded-lg">
           Enviar
         </button>
       </form>

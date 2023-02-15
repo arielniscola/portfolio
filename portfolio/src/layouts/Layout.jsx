@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
 import Contact from "../components/Contact";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
@@ -13,6 +12,9 @@ const Layout = () => {
       <Navbar />
       <Home />
       <AboutMe />
+      <Skills />
+      <Projects />
+      <Contact />
     </div>
   );
 };
